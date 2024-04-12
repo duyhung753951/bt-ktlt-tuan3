@@ -12,22 +12,21 @@ int main(){
     printf("n = ");
     scanf("%d", &n);
 
-    float a[m][n], b[m][n];
+    float a[100][100], b[100][100];
 
-     printf("Nhap ma tran A: \n");
-     input_matrix(m, n, a);
+    printf("Nhap ma tran A: \n");
+    input_matrix(m, n, a);
 
-     printf("Nhap ma tran B: \n");
-     input_matrix(m, n, b);
+    printf("Nhap ma tran B: \n");
+    input_matrix(m, n, b);
+    printf("Ma tran A: \n");
+    print_matrix(m, n, a);
+    printf("Ma tran B: \n");
+    print_matrix(m, n, b);
+    printf("Ma tran C: \n");
+    sum_matrix(m, n, a, b);
 
-     printf("Ma tran A: \n");
-     print_matrix(m, n, a);
-     printf("Ma tran B: \n");
-     print_matrix(m, n, b);
-     printf("Ma tran C: \n");
-     sum_matrix(m, n, a, b);
-
-    float d[m][n], e[n][p];
+    float d[100][100], e[100][100];
     printf("p = ");
     scanf("%d", &p);
     
