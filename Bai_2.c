@@ -14,18 +14,18 @@ int main(){
 
     float a[m][n], b[m][n];
 
-    // printf("Nhap ma tran A: \n");
-    // input_matrix(m, n, a);
+     printf("Nhap ma tran A: \n");
+     input_matrix(m, n, a);
 
-    // printf("Nhap ma tran B: \n");
-    // input_matrix(m, n, b);
+     printf("Nhap ma tran B: \n");
+     input_matrix(m, n, b);
 
-    // printf("Ma tran A: \n");
-    // print_matrix(m, n, a);
-    // printf("Ma tran B: \n");
-    // print_matrix(m, n, b);
-    // printf("Ma tran C: \n");
-    // sum_matrix(m, n, a, b);
+     printf("Ma tran A: \n");
+     print_matrix(m, n, a);
+     printf("Ma tran B: \n");
+     print_matrix(m, n, b);
+     printf("Ma tran C: \n");
+     sum_matrix(m, n, a, b);
 
     float d[m][n], e[n][p];
     printf("p = ");
